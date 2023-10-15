@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101010"
+    tools:context=".UpdateActivity">
+
+    <EditText
+        android:id="@+id/etUpTitle"
+        android:layout_width="288dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:hint="@string/tytul"
+        android:inputType="textCapSentences"
+        android:outlineAmbientShadowColor="@color/white"
+        android:outlineSpotShadowColor="@color/white"
+        android:shadowColor="@color/white"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/etUpBody"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.7" />
+
+    <EditText
+        android:id="@+id/etUpBody"
+        android:layout_width="288dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="top"
+        android:hint="@string/tresc"
+        android:inputType="text"
+        android:outlineAmbientShadowColor="@color/white"
+        android:outlineSpotShadowColor="@color/white"
+        android:shadowColor="@color/white"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/btnUpdate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etUpTitle"
+        app:layout_constraintWidth_percent="0.7" />
+
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#FFC107"
+        android:text="@string/editBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etUpBody" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

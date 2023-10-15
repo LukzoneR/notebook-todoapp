@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Notatnik</string>
+    <string name="add_title">Dodaj notatkę</string>
+    <string name="edit">Edycja zawartości notatki</string>
+    <string name="open_title">notatnik</string>
+    <string name="confirm">potwierdź</string>
+    <string name="code">wprowadź poprawny kod</string>
+    <string name="empty">Nie ma notatek w bazie danych</string>
+    <string name="addToast">Notatka została dodana do bazy danych</string>
+    <string name="addNoToast">Notatka nie została dodana do bazy danych</string>
+    <string name="deleteToast">notatka została usunięta z bazy danych</string>
+    <string name="deleteNoToast">notatka nie została usunięta z bazy danych</string>
+    <string name="save">Zmiany zapisane</string>
+    <string name="saveNo">Zmiany nie zostały zapisane</string>
+    <string name="emptyToast">Wypełnij wszystkie pola</string>
+    <string name="deleteCar">Czy chcesz usunąć notatkę?</string>
+    <string name="no">Nie</string>
+    <string name="yes">Tak</string>
+    <string name="tytul">Tytuł</string>
+    <string name="tresc">Treść</string>
+    <string name="addCar">Dodaj notatkę</string>
+    <string name="noCars">Nie ma notatek w bazie</string>
+    <string name="editBtn">edytuj notatkę</string>
+    <string name="pass">wpisz nowy kod</string>
+    <string name="passChange">Zmień kod dostępu</string>
+
+</resources>

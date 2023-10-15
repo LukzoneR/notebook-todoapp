@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="add_title">Add Note</string>
+    <string name="edit">Edit note</string>
+    <string name="open_title">Notebook</string>
+    <string name="confirm">confirm</string>
+    <string name="code">insert the right code</string>
+    <string name="empty">There aren\'t any notes</string>
+    <string name="addToast">Note has been added to database</string>
+    <string name="addNoToast">Note has not been added to database</string>
+    <string name="deleteToast">Note has been deleted from database</string>
+    <string name="deleteNoToast">Note has not been deleted from database</string>
+    <string name="save">changes were saved</string>
+    <string name="saveNo">changes were not saved</string>
+    <string name="emptyToast">Fill empty spaces</string>
+    <string name="deleteCar">Do you want to delete the note?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="tytul">Title</string>
+    <string name="tresc">content</string>
+    <string name="addCar">add note</string>
+    <string name="noCars">There aren\'t any notes</string>
+    <string name="editBtn">Edit note</string>
+    <string name="pass">insert new code</string>
+    <string name="passChange">Change passcode</string>
+</resources>
